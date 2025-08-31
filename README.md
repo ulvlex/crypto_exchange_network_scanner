@@ -19,11 +19,7 @@
 
 Python 3.10+
 
-Зависимости (см. requirements.txt):
-
-requests (HTTP)
-
-backoff — необязательно (в текущей версии ретраи встроены вручную)
+Зависимости (см. requirements.txt)
 
 # Переменные окружения
 
@@ -34,10 +30,14 @@ CG_API_KEY=
 
 # Установка и запуск
 git clone https://github.com/<you>/crypto_exchange_network_scanner.git
+
 cd crypto_exchange_network_scanner
 
 python3 -m venv .venv
-source .venv/bin/activate           # Windows: .venv\Scripts\activate
+
+source .venv/bin/activate           
+
+для Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
 
